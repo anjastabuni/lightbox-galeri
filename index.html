@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linghtbox Image Gallery</title>
+    <!-- css external-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="profil">
+        <img src="assets/logo.png" alt="" />
+        <p>Gallery Kegiatan</p>
+        <h2>PEMUDA/I JEMAAT GIDI IMMANUEL</h2>
+        <p>Pos 7 Sentani</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="image/1.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/2.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/3.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/4.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/5.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/6.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/7.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/8.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/9.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/10.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/11.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/12.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/13.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/14.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/15.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/16.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/17.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/18.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/19.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/20.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/21.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(21)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/22.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(22)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/23.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(23)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/24.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(24)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/25.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(25)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/26.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(26)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/27.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(27)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/28.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(28)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/29.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(29)" class="hover-shadow cursor" />
+        </div>
+        <div class="column">
+          <img src="image/30.JPG" alt="" style="width: 100%" onclick="openModal();currentSlide(30)" class="hover-shadow cursor" />
+        </div>
+      </div>
+
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+
+        <div class="modal-content">
+          <div class="mySlides">
+            <div class="numbertext">1 / 30</div>
+            <img src="image/1.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">2 / 30</div>
+            <img src="image/2.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">3 / 30</div>
+            <img src="image/3.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">4 / 30</div>
+            <img src="image/4.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">5 / 30</div>
+            <img src="image/5.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">6 / 30</div>
+            <img src="image/6.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">7 / 30</div>
+            <img src="image/7.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">8 / 30</div>
+            <img src="image/8.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">9 / 30</div>
+            <img src="image/9.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">10 / 30</div>
+            <img src="image/10.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">11 / 30</div>
+            <img src="image/11.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">12 / 30</div>
+            <img src="image/12.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">13 / 30</div>
+            <img src="image/13.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">14 / 30</div>
+            <img src="image/14.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">15 / 30</div>
+            <img src="image/15.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">16 / 30</div>
+            <img src="image/16.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">17 / 30</div>
+            <img src="image/17.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">18 / 30</div>
+            <img src="image/18.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">19 / 30</div>
+            <img src="image/19.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">20 / 30</div>
+            <img src="image/20.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">21 / 30</div>
+            <img src="image/21.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">22 / 30</div>
+            <img src="image/22.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">23 / 30</div>
+            <img src="image/23.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">24 / 30</div>
+            <img src="image/24.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">25 / 30</div>
+            <img src="image/25.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">26 / 30</div>
+            <img src="image/26.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">27 / 30</div>
+            <img src="image/27.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">28 / 30</div>
+            <img src="image/28.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">29 / 30</div>
+            <img src="image/29.JPG" alt="" style="width: 100%" />
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">30 / 30</div>
+            <img src="image/30.JPG" alt="" style="width: 100%" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <div class="column">
+            <img src="image/1.JPG" width="100%" alt="foto 1" class="demo cursor" onclick="currentSlide(1)" />
+          </div>
+          <div class="column">
+            <img src="image/2.JPG" width="100%" alt=" foto 2" class="demo cursor" onclick="currentSlide(2)" />
+          </div>
+          <div class="column">
+            <img src="image/3.JPG" width="100%" alt=" foto 3" class="demo cursor" onclick="currentSlide(3)" />
+          </div>
+          <div class="column">
+            <img src="image/4.JPG" width="100%" alt=" foto 4" class="demo cursor" onclick="currentSlide(4)" />
+          </div>
+          <div class="column">
+            <img src="image/5.JPG" width="100%" alt="foto 5" class="demo cursor" onclick="currentSlide(5)" />
+          </div>
+          <div class="column">
+            <img src="image/6.JPG" width="100%" alt=" foto 6" class="demo cursor" onclick="currentSlide(6)" />
+          </div>
+          <div class="column">
+            <img src="image/7.JPG" width="100%" alt=" foto 7" class="demo cursor" onclick="currentSlide(7)" />
+          </div>
+          <div class="column">
+            <img src="image/8.JPG" width="100%" alt=" foto 8" class="demo cursor" onclick="currentSlide(8)" />
+          </div>
+          <div class="column">
+            <img src="image/9.JPG" width="100%" alt="foto 9" class="demo cursor" onclick="currentSlide(9)" />
+          </div>
+          <div class="column">
+            <img src="image/10.JPG" width="100%" alt=" foto 10" class="demo cursor" onclick="currentSlide(10)" />
+          </div>
+          <div class="column">
+            <img src="image/11.JPG" width="100%" alt=" foto 11" class="demo cursor" onclick="currentSlide(11)" />
+          </div>
+          <div class="column">
+            <img src="image/12.JPG" width="100%" alt=" foto 12" class="demo cursor" onclick="currentSlide(12)" />
+          </div>
+          <div class="column">
+            <img src="image/13.JPG" width="100%" alt="foto 13" class="demo cursor" onclick="currentSlide(13)" />
+          </div>
+          <div class="column">
+            <img src="image/14.JPG" width="100%" alt=" foto 14" class="demo cursor" onclick="currentSlide(14)" />
+          </div>
+          <div class="column">
+            <img src="image/15.JPG" width="100%" alt=" foto 15" class="demo cursor" onclick="currentSlide(15)" />
+          </div>
+          <div class="column">
+            <img src="image/16.JPG" width="100%" alt=" foto 16" class="demo cursor" onclick="currentSlide(16)" />
+          </div>
+          <div class="column">
+            <img src="image/17.JPG" width="100%" alt="foto 17" class="demo cursor" onclick="currentSlide(17)" />
+          </div>
+          <div class="column">
+            <img src="image/18.JPG" width="100%" alt=" foto 18" class="demo cursor" onclick="currentSlide(18)" />
+          </div>
+          <div class="column">
+            <img src="image/19.JPG" width="100%" alt=" foto 19" class="demo cursor" onclick="currentSlide(19)" />
+          </div>
+          <div class="column">
+            <img src="image/20.JPG" width="100%" alt=" foto 20" class="demo cursor" onclick="currentSlide(20)" />
+          </div>
+          <div class="column">
+            <img src="image/21.JPG" width="100%" alt="foto 21" class="demo cursor" onclick="currentSlide(21)" />
+          </div>
+          <div class="column">
+            <img src="image/22.JPG" width="100%" alt=" foto 22" class="demo cursor" onclick="currentSlide(22)" />
+          </div>
+          <div class="column">
+            <img src="image/23.JPG" width="100%" alt=" foto 23" class="demo cursor" onclick="currentSlide(23)" />
+          </div>
+          <div class="column">
+            <img src="image/24.JPG" width="100%" alt=" foto 24" class="demo cursor" onclick="currentSlide(24)" />
+          </div>
+          <div class="column">
+            <img src="image/25.JPG" width="100%" alt=" foto 25" class="demo cursor" onclick="currentSlide(25)" />
+          </div>
+          <div class="column">
+            <img src="image/26.JPG" width="100%" alt=" foto 26" class="demo cursor" onclick="currentSlide(26)" />
+          </div>
+          <div class="column">
+            <img src="image/27.JPG" width="100%" alt="foto 27" class="demo cursor" onclick="currentSlide(27)" />
+          </div>
+          <div class="column">
+            <img src="image/28.JPG" width="100%" alt=" foto 28" class="demo cursor" onclick="currentSlide(28)" />
+          </div>
+          <div class="column">
+            <img src="image/29.JPG" width="100%" alt=" foto 29" class="demo cursor" onclick="currentSlide(29)" />
+          </div>
+          <div class="column">
+            <img src="image/30.JPG" width="100%" alt=" foto 30" class="demo cursor" onclick="currentSlide(30)" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- app js -->
+    <script src="app.js"></script>
+  </body>
+</html>
